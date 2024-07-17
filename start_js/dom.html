@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>DOM</title>
+</head>
+<body style="background-color: black; color: aliceblue; ">
+    <div class="parent"> week
+       <div class="day">monday</div>
+       <div class="day"
+       > tuesday</div>
+       <div class="day"> wednesday</div>
+       <div class=" day">thursday</div>
+
+    </div>
+    
+</body>
+<script>
+    const parentselect =document.querySelector('.parent')
+    console.log(parentselect
+
+    );
+    console.log(parentselect.children
+
+     );
+console.log(parentselect.children[1].innerHTML);
+
+for (let i = 0; i <parentselect.children.length; i++) {
+    console.log(parentselect.children[i].innerHTML );
+    
+}
+parentselect.children[2].style.color = "orange"
+console.log (parentselect.firstElementChild);
+const dayone= document.querySelector('.day')
+console.log("Nodes:", parentselect.childNodes);
+
+</script>
+
+</html>
